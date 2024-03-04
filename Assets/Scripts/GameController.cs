@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+
     public static GameController instance;
     public GameObject fim;
     
@@ -22,9 +23,8 @@ public class GameController : MonoBehaviour
         
     }
     public void GameOver(){
+  
         fim.SetActive(true);
-
-
     }
     
 }

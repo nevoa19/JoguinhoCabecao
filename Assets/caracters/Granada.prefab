@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad7813e03fb6d4d89968f6657794dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEstourar: 1
+  tempoParaEstourar: 2
   raioDaExplosao: 7
   forcaDaExplosao: 7
   particulaDeExplosao: {fileID: 5517540063805371739, guid: 28c2c475e237e814c90a761744f4dedc, type: 3}
@@ -217,9 +217,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fc9e7990dd282524fbe739169cc92b2b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 19fcc1643ee78084e96962140749b1e6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.84
   m_Pitch: 1
   Loop: 0
   Mute: 0

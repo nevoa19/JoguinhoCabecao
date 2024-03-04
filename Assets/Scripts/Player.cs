@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        
         Move();
     }
 
@@ -57,11 +58,12 @@ public class Player : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.CompareTag("maxuel") == true)
+        if (other.gameObject.CompareTag("maxuel"))
         {
             GameController.instance.GameOver();
+            anim.SetInteger("transition", 2);
         }
     }
 

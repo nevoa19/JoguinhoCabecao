@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 7896 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/maria/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57900
+Successfully changed project path to: C:/Users/maria/My project
+C:/Users/maria/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13432] Host "[IP] 10.225.7.212 [Port] 0 [Flags] 2 [Guid] 1584024012 [EditorId] 1584024012 [Version] 1048832 [Id] WindowsEditor(7,marianevoa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13432] Host "[IP] 10.225.7.212 [Port] 0 [Flags] 2 [Guid] 1584024012 [EditorId] 1584024012 [Version] 1048832 [Id] WindowsEditor(7,marianevoa) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/maria/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46a3)
+    Vendor:   Intel
+    VRAM:     3948 MB
+    Driver:   31.0.101.4032
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009092 seconds.
+- Loaded All Assemblies, in  0.780 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (396ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.045 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.164 seconds
+Domain Reload Profiling: 2207ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (709ms)
+		LoadAssemblies (549ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (884ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (710ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 13.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3618 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 4091.
+Memory consumption went from 193.4 MB to 191.2 MB.
+Total: 7.708700 ms (FindLiveObjects: 0.362400 ms CreateObjectMapping: 0.136800 ms MarkObjects: 6.094400 ms  DeleteObjects: 1.113200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 578496.495984 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380f9fc66dc3b05eecbd45847688a117') in 0.104465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.656452 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd
+  artifactKey: Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd using Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a918d7b9629f0c1e47d613f47b9d6b2') in 0.091868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e37c6f839801bb497631d8b951256f') in 0.038232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.331495 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c5a48836f78f5ebe5dd70b1f0d5ff1') in 0.103144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003206 seconds.
+  path: Assets/Meshes/Bombs pack/Magnetic bomb/Textures/Magnetic bomb normal.tga
+  artifactKey: Guid(910720f7be8d6dd479214938dfc6a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Bombs pack/Magnetic bomb/Textures/Magnetic bomb normal.tga using Guid(910720f7be8d6dd479214938dfc6a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f392b2b7dd7807a897da9518cae68503') in 0.034015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.948171 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png
+  artifactKey: Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png using Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b61350618be0ccbaa7ca78288e5964d') in 0.059247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022434 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png
+  artifactKey: Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png using Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de59f84f6978f948ed9cf018465c435e') in 0.055148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png
+  artifactKey: Guid(a0d503ff62e3323448a75a7485e3c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png using Guid(a0d503ff62e3323448a75a7485e3c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938fb30bc6b98923bc450dcaff67c422') in 0.014375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.519751 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png
+  artifactKey: Guid(c0ff824bc7611d6448b7231d21ecb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png using Guid(c0ff824bc7611d6448b7231d21ecb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e30bc8b2ea9304c2ece14a2a4a07e63') in 0.040222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png
+  artifactKey: Guid(62a80745906a31e4e80055fd7ec2add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png using Guid(62a80745906a31e4e80055fd7ec2add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa09354758f775bce121da6af503284') in 0.017889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007282 seconds.
+  path: Assets/Meshes/Bombs pack/Old-timer bomb/Textures/Old-timer bomb diffuse.tga
+  artifactKey: Guid(a3b4301e1a211224da503cde28678441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Bombs pack/Old-timer bomb/Textures/Old-timer bomb diffuse.tga using Guid(a3b4301e1a211224da503cde28678441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e56090a43ff0e6e1b18702fa5ea3f') in 0.039563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.087821 seconds.
+  path: Assets/Meshes/Bombs pack/Plastic bomb/Textures/Plastic bomb glow.tga
+  artifactKey: Guid(c0aeaa34deac294429fb68c7228f7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Bombs pack/Plastic bomb/Textures/Plastic bomb glow.tga using Guid(c0aeaa34deac294429fb68c7228f7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b7b750ea69026f82c6254fabfefe10') in 0.038781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.665265 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/ReflectionProbe-0.exr
+  artifactKey: Guid(a16639fe411a545a9a8d7f17cf816377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/ReflectionProbe-0.exr using Guid(a16639fe411a545a9a8d7f17cf816377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c367ff3bb0e3d4625e0a8b01ffd44f07') in 0.121627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png
+  artifactKey: Guid(601b2261c9f9ef0438b1966de0080c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png using Guid(601b2261c9f9ef0438b1966de0080c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66783d53eb8253efa8a411652266164') in 0.026536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014128 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png
+  artifactKey: Guid(fa29af801d4654e469207cffeea8e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png using Guid(fa29af801d4654e469207cffeea8e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e6271094da946d8463491c778ac166') in 0.025769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png
+  artifactKey: Guid(dd66a18c48485c04081d7545c87b5804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png using Guid(dd66a18c48485c04081d7545c87b5804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c767eabbde15ed05c9ed89c8a325e') in 0.014953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.551 seconds
+Domain Reload Profiling: 3119ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1016ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (798ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.2 MB). Loaded Objects now: 4146.
+Memory consumption went from 170.5 MB to 168.3 MB.
+Total: 8.260900 ms (FindLiveObjects: 0.559500 ms CreateObjectMapping: 0.447300 ms MarkObjects: 6.140400 ms  DeleteObjects: 1.110700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
