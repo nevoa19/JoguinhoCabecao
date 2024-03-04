@@ -48,33 +48,22 @@ public class Player : MonoBehaviour
                 anim.SetInteger("transition", 0);
             }
 
-            if (Input.GetKey(KeyCode.Q))
-            {
-                anim.SetInteger("transition", 2);
-            }
-            
-             if (Input.GetKeyUp(KeyCode.Q))
-            {
-                moveDirection = Vector3.zero;
-                anim.SetInteger("transition", 0);
-            }
         }
 
         rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
 
         moveDirection.y -= gravity * Time.deltaTime;
-        //moveDirection = transform.TransformDirection(moveDirection);
-
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    void OnCollisionEnter(Collision collision){
-    if(collision.collider.name.Contains("maxuel")){
-        GameController.instance.GameOver();
-        anim.SetInteger("transition", 2);
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("maxuel") == true)
+        {
+            GameController.instance.GameOver();
+        }
     }
-}
-    
+
 }
 
